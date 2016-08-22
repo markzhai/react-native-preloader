@@ -1,6 +1,7 @@
 package com.github.markzhai.react.preloader;
 
 import android.app.Activity;
+import android.content.MutableContextWrapper;
 import android.support.v4.util.ArrayMap;
 import android.util.Log;
 import android.view.ViewGroup;
@@ -38,7 +39,7 @@ public class ReactPreLoader {
         if (CACHE_VIEW_MAP.get(reactInfo.getMainComponentName()) != null) {
             return;
         }
-        ReactRootView rootView = new ReactRootView(activity);
+        ReactRootView rootView = new ReactRootView(new MutableContextWrapper(activity));
         rootView.startReactApplication(
                 ((ReactApplication) activity.getApplication()).getReactNativeHost().getReactInstanceManager(),
                 reactInfo.getMainComponentName(),

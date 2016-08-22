@@ -4,6 +4,7 @@ package com.github.markzhai.react.preloader;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.MutableContextWrapper;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
@@ -116,6 +117,8 @@ public abstract class MrReactActivity extends Activity
 
         if (mReactRootView != null) {
             Log.i(TAG, "use pre-load view");
+            MutableContextWrapper contextWrapper = (MutableContextWrapper) mReactRootView.getContext();
+            contextWrapper.setBaseContext(this);
         } else {
             Log.i(TAG, "createRootView");
             mReactRootView = createRootView();
