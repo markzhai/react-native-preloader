@@ -1,4 +1,4 @@
-package com.github.markzhai.react.preloader;
+package com.github.markzhai.react.preloader.demo;
 
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;

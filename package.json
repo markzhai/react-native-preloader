@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/markzhai/react-native-preloader/issues"
   },
+  "dependencies": {
+    "react": "15.2.1",
+    "react-native": "0.31.0"
+  },
   "homepage": "https://github.com/markzhai/react-native-preloader#readme"
 }

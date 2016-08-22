@@ -1,4 +1,7 @@
-package com.github.markzhai.react.preloader;
+package com.github.markzhai.react.preloader.demo;
+
+import com.github.markzhai.react.preloader.MrReactActivity;
+import com.github.markzhai.react.preloader.ReactInfo;
 
 /**
  * @author markzhai on 16/8/22
