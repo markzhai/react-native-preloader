@@ -1,0 +1,20 @@
+{
+  "name": "react-native-preloader",
+  "version": "0.31.0",
+  "description": "React Native Pre-loader for Android.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markzhai/react-native-preloader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markzhai/react-native-preloader/issues"
+  },
+  "homepage": "https://github.com/markzhai/react-native-preloader#readme"
+}
