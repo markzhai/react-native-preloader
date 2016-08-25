@@ -2,6 +2,18 @@
 
 React Native Pre-loader for Android.
 
+# Run demo
+
+In order to run demo, your should have react-native installed, then
+
+```bash
+# install dependencies according to package.json
+npm install
+
+# package js files into bundle, which will be under assets directory.
+sh package.sh
+```
+
 # Usage
 
 ```groovy
