@@ -4,6 +4,12 @@ React Native Pre-loader for Android.
 
 # Usage
 
+```groovy
+dependencies {
+    compile "com.github.moduth:react-native-preloader:0.31.0"
+}
+```
+
 In the activity which you want to pre-load ReactActivity:
 
 ```java
