@@ -2,6 +2,13 @@
 
 React Native Pre-loader for Android.
 
+Support React Native versions:
+- 0.30
+- 0.31
+- 0.32
+
+May also run on other versions, but I have not checked that.
+
 # Run demo
 
 In order to run demo, your should have react-native installed, then
