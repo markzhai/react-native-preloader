@@ -2,6 +2,10 @@
 
 React Native Pre-loader for Android.
 
+During development of React Native on Android hybrid app, we can find that even in a release package with js bundle in assets, the first startup of the entry React Native Activity can still cost over 1 second, which severely effects user experience. What's more, if we exit the React Activity, and enter again, it still costs that much time. Holy shit!
+
+This library is to solve the problem, and let you load the React Native Activity in milliseconds, painlessly.
+
 Support React Native versions:
 - 0.30
 - 0.31
