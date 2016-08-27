@@ -14,6 +14,7 @@ Support React Native versions:
 May also run on other versions, but I have not checked that.
 
 Effects on our application:
+
 ![screenshot](screenshot.gif "screenshot")
 
 # TODO
