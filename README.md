@@ -16,6 +16,10 @@ May also run on other versions, but I have not checked that.
 Effects on our application:
 ![screenshot](screenshot.gif "screenshot")
 
+# TODO
+
+- Check bundle update support.
+
 # Run demo
 
 In order to run demo, your should have react-native installed, then
