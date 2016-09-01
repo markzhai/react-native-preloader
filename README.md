@@ -37,7 +37,7 @@ sh package.sh
 
 ```groovy
 dependencies {
-    compile "com.github.moduth:react-native-preloader:0.31.0"
+    compile "com.github.markzhai:react-native-preloader:0.32.0"
 }
 ```
 

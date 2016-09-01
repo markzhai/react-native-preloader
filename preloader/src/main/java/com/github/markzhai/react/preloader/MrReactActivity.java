@@ -24,6 +24,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.facebook.common.logging.FLog;
@@ -133,6 +134,14 @@ public abstract class MrReactActivity extends Activity
             Log.i(TAG, "use pre-load view");
             MutableContextWrapper contextWrapper = (MutableContextWrapper) mReactRootView.getContext();
             contextWrapper.setBaseContext(this);
+            try {
+                ViewGroup viewGroup = (ViewGroup) mReactRootView.getParent();
+                if (viewGroup != null) {
+                    viewGroup.removeView(mReactRootView);
+                }
+            } catch (Exception exception) {
+                Log.e(TAG, "getParent error", exception);
+            }
         } else {
             Log.i(TAG, "createRootView");
             mReactRootView = createRootView();
